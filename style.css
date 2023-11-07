@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 100vw;
+    height: 500px;
+    border: 10px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.days {
+   
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.imageClass {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
