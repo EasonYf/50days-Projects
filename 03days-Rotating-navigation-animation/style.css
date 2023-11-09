@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: #222;
+    overflow-x: hidden;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    transform-origin: top left;
+    width: 100vw;
+    min-height: 100vh;
+    padding: 40px 200px;
+    transition: all .6s linear;
+}
+/* 给主体内容添加show-nav类 */
+.container.show-nav{
+    transform: rotate(-20deg);
+}
+.circle-container{
+    position: fixed;
+    left: -100px;
+    top: -100px;
+}
+/* 左上角的切换圆 */
+.circle {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.container.show-nav .circle{
+    transform: rotate(-70deg);
+}
+
+/* 圆内的切换按钮 */
+.circle button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 26px;
+}
+.circle button:focus{
+    outline: none;
+}
+.circle button#open {
+    left: 60%;
+}
+.circle button#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.container.show-nav+nav li {
+    transform: translateX(0);
+    transition-delay: 0.4s;
+}
+
+/* nav导航 */
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    z-index: 999;
+    left: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+/* 让所有ul的li左移 */
+nav ul li{
+    text-transform: uppercase;
+    margin: 40px 0;
+    transform: translateX(-250%);
+}
+/* 让li的兄弟标签li再左移 */
+nav ul li+li{
+    /* margin-left: 15px; */
+    transform: translateX(-220%);
+}
+nav ul li+li+li{
+    /* margin-left:60px; */
+    transform: translateX(-200%);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+nav a:hover{
+    color: #ff7979;
+    font-size: large;
+}
+
+.content img {
+    max-width: 100%;
+}
