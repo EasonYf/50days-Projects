@@ -14,7 +14,7 @@ fetch('data.json').then(response => {
         div.innerHTML = `
         <div><img src="${item.projectImage}" class="imageClass">
         <div>
-        <p>Expanding-Cards</p>
+        <p>${item.projectName}</p>
         <a href="${item.projectUrl}">点击前往</a>
         </div></div>
         `
