@@ -17,6 +17,12 @@
             "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
             "projectName" : "Rotating-navigation",
             "projectUrl" : "03days-Rotating-navigation-animation/index.html"
+        },
+        {
+            "sno":4 ,
+            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+            "projectName" : "Hidden-Search",
+            "projectUrl" : "04days-Hidden-Search"
         }
     ]
 }
