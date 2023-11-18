@@ -35,6 +35,12 @@
             "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
             "projectName" : "Scroll-Animation",
             "projectUrl" : "06days-Scroll-Animation"
+        },
+        {
+            "sno":7 ,
+            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+            "projectName" : "Split-Landing-Page",
+            "projectUrl" : "07days-Split-Landing-Page"
         }
     ]
 }
