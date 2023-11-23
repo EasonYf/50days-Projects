@@ -12,11 +12,15 @@ fetch('data.json').then(response => {
         div.classList.add('days')
 
         div.innerHTML = `
-        <div><img src="${item.projectImage}" class="imageClass">
+        <div>
+        <a href="${item.projectUrl}">
+        <img src="${item.projectImage}" class="imageClass">
         <div>
         <p>${item.projectName}</p>
-        <a href="${item.projectUrl}">点击前往</a>
-        </div></div>
+        </div>
+        </a>
+        
+        </div>
         `
         console.log(1);
         container.appendChild(div)
