@@ -1,71 +1,82 @@
 {
-    "projects":[
-        {
-            "sno":1 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Expanding-Cards",
-            "projectUrl" : "./01days-Expanding-Cards/index.html"
-        },
-        {
-            "sno":2 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Progress-Steps",
-            "projectUrl" : "02days-Progress-Steps"
-        },
-        {
-            "sno":3 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Rotating-navigation",
-            "projectUrl" : "03days-Rotating-navigation-animation/index.html"
-        },
-        {
-            "sno":4 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Hidden-Search",
-            "projectUrl" : "04days-Hidden-Search"
-        },
-        {
-            "sno":5 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Blurry-loading",
-            "projectUrl" : "05days-Blurry-loading"
-        },
-        {
-            "sno":6 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Scroll-Animation",
-            "projectUrl" : "06days-Scroll-Animation"
-        },
-        {
-            "sno":7 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Split-Landing-Page",
-            "projectUrl" : "07days-Split-Landing-Page"
-        },
-        {
-            "sno":8 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Form-Wave",
-            "projectUrl" : "08days-Form-Wave"
-        },
-        {
-            "sno":9 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Sound-Board",
-            "projectUrl" : "09days-Sound-Board"
-        },
-        {
-            "sno":10 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Dad-jokes",
-            "projectUrl" : "10days-Dad-jokes"
-        },
-        {
-            "sno":11 ,
-            "projectImage":"https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-            "projectName" : "Event-KeyCodes",
-            "projectUrl" : "11days-Event-KeyCodes"
-        }
-        
-    ]
+  "projects": [
+    {
+      "sno": 1,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Expanding-Cards",
+      "projectUrl": "./01days-Expanding-Cards/index.html"
+    },
+    {
+      "sno": 2,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Progress-Steps",
+      "projectUrl": "02days-Progress-Steps"
+    },
+    {
+      "sno": 3,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Rotating-navigation",
+      "projectUrl": "03days-Rotating-navigation-animation/index.html"
+    },
+    {
+      "sno": 4,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Hidden-Search",
+      "projectUrl": "04days-Hidden-Search"
+    },
+    {
+      "sno": 5,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Blurry-loading",
+      "projectUrl": "05days-Blurry-loading"
+    },
+    {
+      "sno": 6,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Scroll-Animation",
+      "projectUrl": "06days-Scroll-Animation"
+    },
+    {
+      "sno": 7,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Split-Landing-Page",
+      "projectUrl": "07days-Split-Landing-Page"
+    },
+    {
+      "sno": 8,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Form-Wave",
+      "projectUrl": "08days-Form-Wave"
+    },
+    {
+      "sno": 9,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Sound-Board",
+      "projectUrl": "09days-Sound-Board"
+    },
+    {
+      "sno": 10,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Dad-jokes",
+      "projectUrl": "10days-Dad-jokes"
+    },
+    {
+      "sno": 11,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Event-KeyCodes",
+      "projectUrl": "11days-Event-KeyCodes"
+    },
+    {
+      "sno": 12,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Event-KeyCodes",
+      "projectUrl": "12days-Faq-collapse"
+    },
+    {
+      "sno": 13,
+      "projectImage": "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
+      "projectName": "Event-KeyCodes",
+      "projectUrl": "13days-Random-choice-picker"
+    }
+  ]
 }
