@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2b88f0;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 500px;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+}
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+    padding: 10px;
+    height: 100px;
+}
+textarea:focus {
+    outline: 0;
+}
+
+.tag{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding:10px 20px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    background-color: rgb(240, 147, 43);
+}
+.tag.highlight{
+    background-color: #273c75;
+}
